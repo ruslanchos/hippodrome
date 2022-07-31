@@ -9,7 +9,7 @@ public class Main {
                 new Horse("Туз Пик", 2.5),
                 new Horse("Зефир", 2.6),
                 new Horse("Пожар", 2.7),
-                new Horse("Лобстер", 2.8),
+                new Horse("Пуля", 3.8),
                 new Horse("Пегас", 2.9),
                 new Horse("Вишня", 3)
         );
@@ -22,7 +22,7 @@ public class Main {
         }
 
         String winnerName = hippodrome.getWinner().getName();
-        System.out.println("Победил " + winnerName + "!");
+        System.out.println("Победила " + winnerName + "!");
     }
 
     private static void watch(Hippodrome hippodrome) throws Exception {
