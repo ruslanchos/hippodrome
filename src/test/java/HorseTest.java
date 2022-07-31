@@ -16,7 +16,9 @@ import static org.mockito.ArgumentMatchers.anyDouble;
 import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.mockStatic;
 
-public class HorseTest {
+public class
+
+HorseTest {
 
     @Test
     public void nullFirstParamIllegalArgumentExceptionInConstructorAndFailMessageException(){

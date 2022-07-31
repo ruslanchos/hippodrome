@@ -13,6 +13,8 @@ import static org.mockito.Mockito.*;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class HippodromTest {
 
+
+
     public Hippodrome hippodrome;
     public List<Horse> horses = new ArrayList<>();
     public List<Horse> mockHorses = new ArrayList<>();
