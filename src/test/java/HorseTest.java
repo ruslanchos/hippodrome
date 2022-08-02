@@ -22,7 +22,7 @@ HorseTest {
 
     @Test
     public void nullFirstParamIllegalArgumentExceptionInConstructorAndFailMessageException(){
-        Exception exception = assertThrows(IllegalArgumentException.class,()-> new Horse(null,1.0,1.0));
+        Exception exception = assertThrows(IllegalArgumentException.class,()-> new Horse(null, 1.0, 1.0));
         assertEquals("Name cannot be null.",exception.getMessage());
     }
 
