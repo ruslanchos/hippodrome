@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 public class MainTest {
     @Disabled
     @Test
-    @Timeout(value = 21, unit = TimeUnit.SECONDS)
+    @Timeout(value = 21)
     public void testMainCountTime() throws Exception {
         Main.main(null);
     }
