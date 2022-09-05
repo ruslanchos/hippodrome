@@ -1,7 +1,12 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
+
+public final static Logger log = LogManager.getLogger(Main.class);
 
     public static void main(String[] args) throws Exception {
         List<Horse> horses = List.of(
